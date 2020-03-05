@@ -11,6 +11,11 @@ dash-bootstrap-components = "*"
 gunicorn = "*"
 plotly = "*"
 pandas = "*"
+joblib = "==0.14"
+scikit-learn = "==0.22.1"
+category-encoders = "==2.1.0"
+xgboost = {path = "./xgboost-1.0.1-cp38-cp38-win32.whl"}
+xgboost-1-0-1-cp38-cp38-win32-whl = "*"
 
 [requires]
 python_version = "3"

@@ -16,7 +16,7 @@ from app import app
 
 import pickle
 
-pipeline = pickle.load(open('assets/new_model.sav', 'rb'))
+pipeline = pickle.load(open('assets/last_model.sav', 'rb'))
 
 # 2 column layout. 1st column width = 4/12
 # https://dash-bootstrap-components.opensource.faculty.ai/l/components/layout
