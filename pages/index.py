@@ -45,7 +45,7 @@ column1 = dbc.Col(
 
 column2 = dbc.Col(
     [
-        html.Div(html.Img(src='assets/paris.jpg')),
+        html.Div(html.Img(src='assets/paris.jpg'))
     ]
 )
     

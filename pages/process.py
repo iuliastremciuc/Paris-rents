@@ -51,8 +51,8 @@ column1 = dbc.Col(
         
          dcc.Markdown(
              """
-             As my baseline I used mean of my dependent variable which was ~$118.7.  After I transformed my target values 
-             I used linear regression model and beat my baseline: Mean Absolute Error (MAE) ~$46, score ~0.25. 
+             As my baseline I used Mean Absolute Error (MAE) of my dependent variable which was ~$62.  After I transformed my target values 
+             I used linear regression model and beat my baseline: MAE ~$46, score ~0.25. 
              Next using RandomForestRegressor I beat my baseline and my linear model, I decresed my MAE to ~$44.6 and r2_score 0.28. 
              Before I settled on RandomForestRegressor I tried the DecisionTreeRegressor and XGBRegressor but MAE was worst
              then my final model.

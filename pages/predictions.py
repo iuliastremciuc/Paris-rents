@@ -102,11 +102,13 @@ column1 = dbc.Col(
 )
 
 column2 = dbc.Col(
-    [
+    [      
         html.H2('Estimated rent in Paris: ', className='mb-5'), 
-        html.Div(id='prediction-content', className='lead', style={'fontSize': 40})
+        html.Div(id='prediction-content', className='lead', style={'fontSize': 40}), 
+        
     ]
 )
+
 
 layout = dbc.Row([column1, column2])
 
