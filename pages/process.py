@@ -21,7 +21,7 @@ column1 = dbc.Col(
            
             Airbnb is a market leader in rentals which is why for this project I used [Inside Airbnb]
             (http://insideairbnb.com/get-the-data.html) where I found rental data 
-            wich contains information about rents in Paris. 
+            which contains information about rents in Paris. 
             
             ### Cleaning the data
            

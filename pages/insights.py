@@ -16,7 +16,7 @@ column1 = dbc.Col(
             """
         
             ## Insights
-            The PermutationImportances, shown below, explains how important every feature is for predicting price.
+            The Permutation Importances, shown below, explains how important every feature is for predicting price.
             The biggest influence on this prediction model is made by the 'longitude', 'latitude', and 'room_type' features.
             """
         ),

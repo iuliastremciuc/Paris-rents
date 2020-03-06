@@ -129,4 +129,4 @@ def predict( neighbourhood, latitude, longitude, room_type, minimum_nights):
     )
     y_pred = pipeline.predict(df)[0]
     price_pred = np.expm1(y_pred)
-    return f'{price_pred:.0f} $'
+    return f'${price_pred:.0f} '
