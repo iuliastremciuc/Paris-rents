@@ -18,10 +18,10 @@ column1 = dbc.Col(
         
             ## Going to visit Paris?
             
-            #### Congradulations!!
+            #### Congratulations!!
             
             This price estimator will help you find the place to stay in Paris.
-            Depending on your preferences of location, type of rent and how long you stay there,
+            Depending on your preferences of location, type of rent, and how long you stay there,
             this app may help you determine the budget for the trip.  
 
            
