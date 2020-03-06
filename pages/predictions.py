@@ -29,7 +29,8 @@ column1 = dbc.Col(
             min=48.816990,
             max=48.900790,
             step=0.001,
-            value=0,
+            value=48.816990,
+            marks = {48.816990: '48.816990', 48.900790: '48.900790'},
             className = 'mb-1' 
 ), 
          
@@ -41,7 +42,8 @@ column1 = dbc.Col(
             min=2.247990,
             max=2.427590,
             step=0.001,
-            value=0,
+            value=2.247990,
+            marks = {2.247990: '2.247990', 2.427590: '2.427590'}, 
             className = 'mb-1'
 ),
         dcc.Markdown('', id = 'out2'),
