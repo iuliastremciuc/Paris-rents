@@ -1,4 +1,4 @@
-- Predict rent prices in Paris 
+Rent prices in Paris: 
 - Collected data, engineered features 
 - Defined regression problem and built the pipeline with tree-based model  
 - Made visualizations that explained my model including shapley value plots
